@@ -6,15 +6,19 @@
                     <p>0</p>
                 </div>
             </div>
+
+            <div class="containerTitleInfos">
+                <p>Patrimonio</p>
+                <p>Motorista</p>
+            </div>
         </div>
+
     </div>
 </template>
 
 <script>
-
     export default{
         name: 'TemplateRegistro'
-
     }
 </script>
 
@@ -29,6 +33,7 @@
         height: 90px;
         background: rgb(255, 255, 255);
         margin-top: 10px;
+        display: flex;
     }
         .containerId{
             width: 90px;
@@ -46,4 +51,22 @@
                 align-items: center;
                 border-radius: 8px;
             }
+            .containerInfo p{
+                font-family: Abel;
+                color: #fff;
+                font-size: 20px;
+            }
+    
+    .containerTitleInfos{
+        width: 200px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .containerTitleInfos p{
+        font-family: Abel;
+        font-size: 20px;
+    }
 </style>
